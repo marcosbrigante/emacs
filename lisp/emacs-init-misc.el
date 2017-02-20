@@ -1,3 +1,7 @@
+;; MacOsx disable cmd H 
+;; ==============================
+(setq mac-pass-command-to-system nil)
+
 ;; Organize Emacs Backup Files 
 ;; ==============================
 (defvar user-temporary-file-directory "~/.emacs-backup/" )
